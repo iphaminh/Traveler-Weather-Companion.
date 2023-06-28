@@ -22,17 +22,17 @@
           <h2 id="form-heading" class="mt-1 h3 form-label">
             Search for a City:
           </h2>
-          <form id="search-form" class="form">
+          <form id="search-form" class="form"> <!-- 1 - sf -->
             <div class="form-inline form-group">
               <div class="input-group">
                 <input
                   class="form-input weather-search"
                   type="text"
-                  id="search-input"
+                  id="search-input" 
                   placeholder="San Diego"
                   aria-labelledby="form-heading"
                   aria-controls="today forecast"
-                />
+                /> <!-- 2 si -->
                 <div class="input-group-append">
                   <button
                     type="submit"
@@ -48,21 +48,21 @@
             </div>
           </form>
           <div class="list-group" id="history"></div>
-        </aside>
+        </aside> <!-- 5 history -->
 
         <div class="col-lg-9 pb-3">
           <section
-            id="today"
+            id="today" 
             class="mt-3"
             role="region"
             aria-live="polite"
-          ></section>
+          ></section> <!-- 3 today -->
           <section
             id="forecast"
             class="row mt-3"
             role="region"
             aria-live="polite"
-          ></section>
+          ></section> <!-- 4 forecast -->
         </div>
       </div>
     </div>
